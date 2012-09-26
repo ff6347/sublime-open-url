@@ -1,0 +1,5 @@
+    [  
+        {  
+            "keys": ["ctrl+alt+u"], "command": "open_url"  
+        }  
+    ]  
