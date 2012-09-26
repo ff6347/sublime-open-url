@@ -13,6 +13,8 @@ clone it to your packages with
 1. select an url in the text  
 2. hit **ctrl + alt + u**  
 3. read the website you wanted to see  
+(Tested only on OSX 10.6 & 10.8)  
+
 
 ##Not an URL?  
 You can't open not an url in a web browser  
