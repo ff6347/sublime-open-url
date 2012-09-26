@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 # Copyright (c)  2012
 # Fabian "fabiantheblind" Morón Zirfas
 # Permission is hereby granted, free of charge, to any
