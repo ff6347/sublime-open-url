@@ -1,7 +1,7 @@
 sublime-open-url
 ================
 
-a sublime text 2 plugin to open a selected url in the standard browser  
+a sublime text 2 plugin to open all urls in the selection with the standard browser  
 
 ##Install  
 
@@ -13,15 +13,17 @@ or download it and drop it manually into your [packages](http://sublimetext.info
 
 ##Usage  
 
-1. select an url in the text  
-2. hit **ctrl + alt + u**  
+1. select an portion of text  
+2. hit **ctrl + alt + u** (or the keys you asigned)  
 3. read the website you wanted to see  
 (Tested only on OSX 10.6 & 10.8)  
 
+##Thanks  
+go to [Brett Terpstra](http://brettterpstra.com/) for writing that marvelous regex that gets all urls [for popclip](http://brettterpstra.com/openurls-popclip-extension/)!
 
-##Not an URL?  
+##No an URL?  
 
-You can't open not an url in a web browser  
+You can't open no urls in a web browser  
 
 ##To Do's  
 

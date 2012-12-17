@@ -22,10 +22,14 @@
 # see also http://www.opensource.org/licenses/mit-license.php
 
 #wuhahahah more license than code :D
-#this plugin opens a the selection as url in a browser
-import sublime
+#this plugin opens all urls in the selection in the standard browser
+#the magic regex is taken from Brett Terpstra
+#http://brettterpstra.com/openurls-popclip-extension/
+#https://github.com/ttscoff/popclipextensions/tree/master/OpenURLS.popclipext
+# import sublime
 import sublime_plugin
 import webbrowser
+import re
 # view.run_command('example')
 
 
@@ -33,5 +37,10 @@ class OpenUrlCommand(sublime_plugin.TextCommand):
     def run(self, view):
         for region in self.view.sel():
             if not region.empty():
+                patt = re.compile("\w+?:[^\n ]+[^\.,!&gt;\)\n ]")
                 s = self.view.substr(region)
-                webbrowser.open(s)
+                urls = patt.findall(s)
+                # webbrowser.open(s)
+                for url in urls:
+                    # print url
+                    webbrowser.open(url)
