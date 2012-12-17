@@ -21,10 +21,6 @@ or download it and drop it manually into your [packages](http://sublimetext.info
 ##Thanks  
 go to [Brett Terpstra](http://brettterpstra.com/) for writing that marvelous regex that gets all urls [for popclip](http://brettterpstra.com/openurls-popclip-extension/)!
 
-##To Do's  
-
-Send not an url to search  
-
 ##License  
 
 Copyright (c)  2012 Fabian "fabiantheblind" Morón Zirfas  
