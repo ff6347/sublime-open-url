@@ -21,10 +21,6 @@ or download it and drop it manually into your [packages](http://sublimetext.info
 ##Thanks  
 go to [Brett Terpstra](http://brettterpstra.com/) for writing that marvelous regex that gets all urls [for popclip](http://brettterpstra.com/openurls-popclip-extension/)!
 
-##No an URL?  
-
-You can't open no urls in a web browser  
-
 ##To Do's  
 
 Send not an url to search  
